@@ -34,7 +34,7 @@ Requires XCode 8+ / Swift 3+
 To install Simplicity, we use [CocoaPods](http://cocoapods.org). To install it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'Simplicity'
+pod 'Simplicity', :git => 'https://github.com/TBPHMobileDev/Simplicity.git'
 ```
 
 **Carthage**
