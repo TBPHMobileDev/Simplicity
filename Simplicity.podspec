@@ -5,7 +5,7 @@
 
 Pod::Spec.new do |s|
 s.name             = "Simplicity"
-s.version          = "2.0.1.1"
+s.version          = "2.0.1.2"
 s.summary          = "A simple way to login with Facebook or Google on iOS"
 
 s.description      = <<-DESC
@@ -21,7 +21,7 @@ s.author           = { "Edward Jiang" => "edward@stormpath.com" }
 s.source           = { :git => "https://github.com/TBPHMobileDev/Simplicity.git", :tag => s.version.to_s }
 s.social_media_url = 'https://www.facebook.com/TravelBook.ph/'
 
-s.ios.deployment_target = '8.0'
+s.ios.deployment_target = '10.0'
 
 s.source_files = 'Simplicity/**/*.swift'
 
